@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        .container1{
+            width: 300px;
+            height: 460px;
+            background-color: rgb(245, 249, 250);
+            position: absolute;
+            display: flex;
+            
+        }
+        .top{
+            width: 300px;
+            height:40px;
+            background-color:lightcoral ;
+            
+
+        }
+        .icon{
+            width: 40px;
+            height: 40px;
+            top: -14px;
+            left: -150px;
+            position: relative;
+        }
+        .flag{
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 70px;
+            border-radius: 50%;
+            top: -20px;
+
+        }
+        .set{
+            position: relative;
+            top: 50px;
+        }
+        .settings{
+            position: relative;
+            top: 10px;
+            left: 150px;
+            width: 30px;
+            height: 30px;
+        }
+        .basket{
+            position: relative;
+            height: 30px;
+            width: 30px;
+            top: 11px;
+            left: 180px;
+            background-color: transparent;
+        }
+        .menu{
+            position: relative;
+            left: -110px;
+            top: 15px;
+            
+        }
+        td:nth-child(even){
+            background-color: lightgrey;
+            width: 10px;
+        }
+        .cotainer2{
+            width: 270px;
+            height: 356px;
+            left:20px;
+            top: 120px;
+            background-color:white;
+            position:absolute;
+            display: flex;
+        }
+        .info{
+            font-size: 12px;
+            padding: 5px;
+            width: 255px;
+            height: 40px;
+            left:-131px;
+            top: 25px; 
+            background-color: gold;
+            position:relative;
+        }
+        #co{
+            top: 1px;
+            left: 10px;
+            position: relative;
+        }
+        .Email{
+            top: 90px;
+            left: -390px;
+            position: relative;
+        }
+        .email{
+            top: 121px;
+            width: 250px;
+            height: 20px;
+            left: 5px;
+            position: absolute;
+            border: 1px solid black;
+            opacity: 0.3;
+        }
+        .Gu{
+            top: 140px;
+            left: -463px;
+            position: relative;
+        }
+        .gu{
+            top: 170px;
+            width: 250px;
+            height: 20px;
+            left: 5px;
+            position: absolute;
+            border: 1px solid black;
+            opacity: 0.3;
+        }
+        .Phone{
+            top: 210px;
+            left: -610px;
+            position: relative;
+        }
+        .phone{
+            top: 240px;
+            width: 250px;
+            height: 20px;
+            left: 5px;
+            position: absolute;
+            border: 1px solid black;
+            opacity: 0.3;
+        }
+        .Pho{
+            top: 260px;
+            left: -680px;
+            position: relative;
+        }
+        .pho{
+            top: 290px;
+            width: 250px;
+            height: 20px;
+            left: 5px;
+            position: absolute;
+            border: 1px solid black;
+            opacity: 0.3;
+        }
+        .Box{
+            top: 330px;
+            left: -830px;
+            position: relative;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+  <div class="container1">
+    <div class="top"></div>
+        <div class="top">
+            <div class="menu">
+                <table >
+                    <tr style="border-bottom-color: lightcoral;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr style="border-bottom-color: lightcoral;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr style="border-bottom-color: lightcoral;">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <img src="data:image/png;base64,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" alt="icon" class="icon">
+            <img  src="data:image/png;base64,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" alt="flag" class="flag">
+        </div>
+    </div>
+    <p class="set">Account settings</p>
+    <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfrW8aseQxTjhTa4hVJH5mU50DtfDpLaOfow&usqp=CAU" alt="" class="settings">
+        <img src="https://t4.ftcdn.net/jpg/04/09/37/45/240_F_409374544_Ejb2viT9iOVPDvyT6W3gFxtojpmNjzgn.jpg" alt="" class="basket">
+    </figure>
+    <div class="cotainer2">
+        <pre id="co">CONTACT INFORMATION</pre>
+        <pre class="info">There is no need to update your details
+just repeat form 4. Uliuma nje vibaya 
+sana! Be serious na Maisha!!
+        </pre>
+        <pre class="Email">Your Email</pre>
+        <div class="email"></div>
+        <pre class="Gu">Guardian/Parent Email</pre>
+        <div class="gu"></div>
+        <pre class="Phone">Your Phone</pre>
+        <div class="phone"></div>
+        <pre class="Pho">Guardian/Parent Phone</pre>
+        <div class="pho"></div>
+        <pre class="Box">P.O.Box</pre>
+       
+    </div>
+  </div>
+</body>
+</html>
